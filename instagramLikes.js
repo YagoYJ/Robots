@@ -1,0 +1,22 @@
+// Robot likes every photos on the page
+
+function likePhoto() {
+  setTimeout(() => {
+    let likeButton = document.querySelector(".wpO6b");
+    let nextButton = document.querySelector("._65Bje");
+
+    setTimeout(() => {
+      likeButton.click();
+      console.log("Curtiu");
+    }, 2000);
+    setTimeout(() => {
+      nextButton.click();
+      console.log("Passou");
+    }, 4000);
+  }, 5000);
+  setTimeout(() => {
+    likePhoto();
+  }, 5000);
+}
+
+likePhoto();
