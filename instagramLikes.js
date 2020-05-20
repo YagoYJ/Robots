@@ -1,4 +1,4 @@
-// Robot likes every photos on the page
+// Robot likes every photos on the page, you need to go for any hashtag, click on the first post and paste this code in console;
 
 function likePhoto() {
   setTimeout(() => {
